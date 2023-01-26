@@ -1,27 +1,43 @@
-# CrudAngular
+# Sobre o projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+Desenvolvi um CRUD em minha aplicação, utilizando as linguagens NestJS e Angular, conectando no banco de dados MongoDB. 
+O CRUD foi realizados nas entidades Produtos e Categorias.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Tecnologias utilizadas
+## Back end
+- NestJs
+## Front end
+- HTML / CSS / TypeScript
+- Angular CLI
+## Implantação em produção
+- Banco de dados: MongoDB
 
-## Code scaffolding
+# Como executar o projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+```bash
+# clonar repositório
+git clone https://github.com/devsuperior/sds1-wmazoni
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# entrar na pasta do projeto back end
+cd backend
 
-## Running unit tests
+# entrar na pasta do projeto front end
+cd frontend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# executar o projeto back end
+./npm run start:dev
 
-## Running end-to-end tests
+# executar o projeto front end
+./ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Autor
+
+Matheus Francisco Penna Carlos
+
+https://www.linkedin.com/in/matheus-francisco-penna-carlos
